@@ -3,19 +3,19 @@ import ArrowIcon from '@/assets/icons/arrow-up-right.svg';
 const FooterLinks = [
   {
     title: 'Youtube',
-    href: 'https://youtube.com',
+    href: 'https://youtube.com/@sarvankumarnagarampalli?si=f3GT89uzimwiKzpM',
   },
   {
     title: 'Linkedin',
-    href: 'https://linkedin.com',
+    href: 'https://www.linkedin.com/in/nagarampalli-sarvan-kumar/',
   },
   {
     title: 'Instagram',
-    href: 'https://instagram.com',
+    href: 'https://www.instagram.com/sarvan._.21/',
   },
   {
     title: 'Github',
-    href: 'https://github.com',
+    href: 'https://github.com/sarvan-2187',
   },
 ];
 
