@@ -1,8 +1,7 @@
 'use client';
-
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import TdcImage from "@/assets/images/tanjore-degree-cofee.png"
+import MiImage from "@/assets/images/mumbai-indians.png"
+import PillPal from "@/assets/images/pill-pal.png"
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowIcon from "@/assets/icons/arrow-up-right.svg";
 import Image from "next/image";
@@ -11,40 +10,40 @@ import { useRef, useEffect } from "react";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "ShadowFox",
+    year: "2025",
+    title: "TDC Website Redesign",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://shadowfox-client.vercel.app/landing.html",
+    image: TdcImage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Personal",
+    year: "2025",
+    title: "Mumbai Indians",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://mumbai-indians-paltan.vercel.app",
+    image: MiImage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Collaborated",
+    year: "2025",
+    title: "PillPal AI",
     results: [
-      { title: "Enhanced user experience by 40%" },
+      { title: "Implemented AI Chatbots" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://the-pillpal.vercel.app",
+    image: PillPal,
   },
 ];
 
@@ -133,13 +132,6 @@ export const ProjectsSection = () => {
                       className="bg-white text-gray-950 z-10 hover:bg-white/70 hover:text-gray-900 transition duration-300 h-12 w-full md:w-1/2 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8"
                     >
                       <span>Visit Live Site</span>
-                      <ArrowIcon className="size-4" />
-                    </a>
-                    <a
-                      href="#"
-                      className="border border-white/15 text-white z-10 hover:bg-gray-700 hover:text-white transition duration-300 h-12 w-full md:w-1/2 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8"
-                    >
-                      <span>View on GitHub</span>
                       <ArrowIcon className="size-4" />
                     </a>
                   </div>
