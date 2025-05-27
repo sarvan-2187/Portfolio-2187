@@ -2,6 +2,7 @@
 import TdcImage from "@/assets/images/tanjore-degree-cofee.png"
 import MiImage from "@/assets/images/mumbai-indians.png"
 import PillPal from "@/assets/images/pill-pal.png"
+import objImage from "@/assets/images/obj-detector.png"
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowIcon from "@/assets/icons/arrow-up-right.svg";
 import Image from "next/image";
@@ -32,6 +33,18 @@ const portfolioProjects = [
     ],
     link: "https://mumbai-indians-paltan.vercel.app",
     image: MiImage,
+  },
+  {
+    company: "Personal",
+    year: "2025",
+    title: "Thief Detection Alarm",
+    results: [
+      { title: "Used COCO SSD - A tensorflow Model" },
+      { title: "Plays a loud sound if detects a person" },
+      { title: "Helped 10+ Households with this project" },
+    ],
+    link: "https://obj-detector.vercel.app",
+    image: objImage,
   },
   {
     company: "Collaborated",
