@@ -77,11 +77,11 @@ export const HeroSection = () => {
             <h1
               className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl font-medium bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text"
             >
-              Hi! I'm Sarvan Kumar
+              Hi! I&apos;m Sarvan Kumar
             </h1>
 
             <p className="mt-4 text-center text-white/60 md:text-lg">
-              Passionate about Data Science and AI, I turn data into decisions and code into capability. Let's build something intelligent together.
+              Passionate about Data Science and AI, I turn data into decisions and code into capability. Let&apos;s build something intelligent together.
             </p>
           </div>
 
