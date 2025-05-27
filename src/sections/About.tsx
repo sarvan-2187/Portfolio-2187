@@ -1,16 +1,16 @@
 'use client';
 
+import GitIcon from "@/assets/icons/git.svg"
+import ChromeIcon from "@/assets/icons/chrome.svg"
 import { Card } from "@/components/Card";
-import StarIcon from "@/assets/icons/star.svg";
 import BookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
 import JsIcon from "@/assets/icons/square-js.svg";
 import HtmlIcon from "@/assets/icons/html5.svg";
 import CssIcon from "@/assets/icons/css3.svg";
 import ReactIcon from "@/assets/icons/react.svg";
-import ChromeIcon from "@/assets/icons/chrome.svg";
-import GithubIcon from "@/assets/icons/github.svg";
-import { TechIcon } from "@/components/TechIcon";
+import NextjsIcon from "@/assets/icons/next-js.svg"
+import VsCodeIcon from "@/assets/icons/vs-code.svg"
 import MapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
@@ -23,8 +23,10 @@ const toolboxItems = [
   { title: 'HTML5', iconType: HtmlIcon },
   { title: 'CSS3', iconType: CssIcon },
   { title: 'React', iconType: ReactIcon },
+  { title: 'VS Code', iconType: VsCodeIcon },
+  { title: 'Next.JS', iconType: NextjsIcon },
   { title: 'Chrome', iconType: ChromeIcon },
-  { title: 'Github', iconType: GithubIcon },
+  { title: 'Git', iconType: GitIcon},
 ];
 
 const hobbies = [
