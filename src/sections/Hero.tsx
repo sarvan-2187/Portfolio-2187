@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import memojiImage from '@/assets/images/memoji-computer.png';
 import grainImage from '@/assets/images/grain.jpg';
 import StarIcon from '@/assets/icons/star.svg';
-import ArrowIcon from '@/assets/icons/arrow-up-right.svg';
+import GithubIcon from '@/assets/icons/github.svg';
 import SparkleIcon from '@/assets/icons/sparkle.svg';
 import { HeroOrbit } from '@/components/HeroOrbit';
 
@@ -74,12 +74,14 @@ export const HeroSection = () => {
 
           {/* Heading */}
           <div className="max-w-lg mx-auto">
-            <h1 className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl font-medium bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">
-              {"Hi! I'm Sarvan Kumar"}
+            <h1
+              className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl font-medium bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text"
+            >
+              Hi! I'm Sarvan Kumar
             </h1>
 
             <p className="mt-4 text-center text-white/60 md:text-lg">
-              {"Passionate about Data Science and AI, I turn data into decisions and code into capability. Let's build something intelligent together."}
+              Passionate about Data Science and AI, I turn data into decisions and code into capability. Let's build something intelligent together.
             </p>
           </div>
 
@@ -91,14 +93,14 @@ export const HeroSection = () => {
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
           >
             <a
-              href="https://www.chatbase.co/chatbot-iframe/wu2YgNi9Pd6qET2LDGxSd"
+              href="https://github.com/sarvan-2187"
               target="_blank"
               rel="noopener noreferrer"
               className="z-10"
             >
               <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl z-10 hover:bg-gray-700 hover:text-white transition duration-500">
-                <span className="font-semibold">Chat With Me!</span>
-                <ArrowIcon className="size-4" />
+                <span className="font-semibold">View Github </span>
+                <GithubIcon className="size-4" />
               </button>
             </a>
 
