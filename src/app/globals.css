@@ -20,17 +20,4 @@
     rgba(94, 234, 212, 0.02) 60%,
     transparent 100%
   );
-  animation: pulse-ring 10s linear infinite;
-}
-
-@keyframes pulse-ring {
-  0% {
-    opacity: 0.6;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% {
-    opacity: 0.6;
-  }
 }
