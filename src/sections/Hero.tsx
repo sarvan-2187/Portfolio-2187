@@ -64,7 +64,7 @@ export const HeroSection = () => {
               className="size-[200px] lg:size-[150px]"
               alt="Person peeking from behind Laptop"
             />
-            <div className="bg-gray-950 border-gray-800 px-4 py-1.5 inline-flex items-center gap-8 lg:gap-4 rounded-3xl">
+            <div className="bg-gray-950 border-gray-800 px-4 py-1.5 inline-flex items-center gap-8 lg:gap-4 rounded-3xl border-b border-green-950">
               <div className="bg-green-500 size-2.5 rounded-full relative">
                 <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
               </div>
@@ -80,8 +80,9 @@ export const HeroSection = () => {
               Hi! I&apos;m Sarvan Kumar
             </h1>
 
-            <p className="mt-4 text-center text-white/60 md:text-lg">
-              Passionate about Data Science and AI, I turn data into decisions and code into capability. Let&apos;s build something intelligent together.
+            <p className="mt-4 text-center text-white/60 md:text-lg z-10">
+            A Frontend Engineer with Expertise in HTML, CSS, JavaScript, React.JS, Next.JS, Tailwind, Figma, Git,
+            Framer and Canva.
             </p>
           </div>
 
