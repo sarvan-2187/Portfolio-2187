@@ -75,7 +75,7 @@ export const HeroSection = () => {
           {/* Heading */}
           <div className="max-w-lg mx-auto">
             <h1
-              className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl font-medium bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text"
+              className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl font-xl bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text"
             >
               Hi! I&apos;m Sarvan Kumar
             </h1>
