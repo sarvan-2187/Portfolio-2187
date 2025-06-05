@@ -13,11 +13,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 9999px; /* fully rounded */
-  border: 1px solid rgba(94, 234, 212, 0.1); /* emerald-300/10 */
+  border-radius: 9999px;
+  border: 1px solid rgba(94, 234, 212, 0.1);
   background: radial-gradient(
-    rgba(94, 234, 212, 0.08) 0%,
+    rgba(94, 234, 212, 0.01) 0%,
     rgba(94, 234, 212, 0.02) 60%,
     transparent 100%
   );
 }
+
