@@ -97,11 +97,3 @@
 .color-github-4 {
   fill: #216e39;
 }
-
-
-
-@layer base {
-  body {
-    @apply bg-background text-foreground;
-  }
-}
