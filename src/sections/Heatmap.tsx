@@ -3,7 +3,6 @@
 import { motion, useAnimation, useInView } from 'framer-motion'
 import React, { useEffect, useRef } from 'react'
 import GitHubCalendar from 'react-github-calendar'
-import LeetCodeCalendar from 'leetcode-calendar';
 
 export const GithubHeatmap = () => {
   const headingRef = useRef(null);
@@ -52,7 +51,7 @@ export const GithubHeatmap = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="font-serif text-3xl md:text-5xl text-center mt-8"
       >
-        Heatmaps
+        Heatmap
       </motion.h2>
 
       <motion.p
@@ -65,7 +64,7 @@ export const GithubHeatmap = () => {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
         className="text-center text-white/60 md:text-lg mt-8 mb-8 max-w-[32rem] mx-auto"
       >
-        See my Github and Leetcode Contributions/Submissions.
+        See my GitHub Contributions/Submissions.
       </motion.p>
 
       <div className='mt-8 max-w-4xl mx-auto flex flex-col items-center gap-2'>
@@ -81,15 +80,6 @@ export const GithubHeatmap = () => {
               theme={gradientTheme}
             />
           </div>
-        </div>
-        <div className='m-4' ></div>
-        <div className='w-full'>
-          <p className='font-serif text-emerald-300 text-xl font-semibold text-center mb-6'>- LeetCode -</p>
-          <LeetCodeCalendar
-            username='sarvan-2187'
-            className="w-full max-w-full overflow-x-auto"
-            theme={gradientTheme}
-          />
         </div>
       </div>
     </section>
