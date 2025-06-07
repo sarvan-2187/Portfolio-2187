@@ -78,7 +78,7 @@ export function Contact() {
           visible: { opacity: 1, y: 0 },
         }}
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
-        className="text-center text-white/60 md:text-lg mt-4 max-w-md mx-auto"
+        className="text-center text-white/60 md:text-lg mt-4 mb-4 max-w-md mx-auto"
       >
         Let&apos;s build something amazing together.
       </motion.p>
