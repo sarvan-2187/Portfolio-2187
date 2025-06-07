@@ -29,7 +29,7 @@ const toolboxItems = [
 const hobbies = [
   { title: "Painting", emoji: "🎨", left: '5%', top: '5%' },
   { title: "Photography", emoji: "📸", left: '50%', top: '5%' },
-  { title: "Competitive Programming", emoji: "💻", left: '25%', top: '48%' },
+  { title: "Yoga", emoji: "🧘‍♂️", left: '25%', top: '48%' },
   { title: "Gaming", emoji: "🎮", left: '11%', top: '30%' },
   { title: "Music", emoji: "🎵", left: '70%', top: '45%' },
   { title: "Movies", emoji: "🎬", left: '5%', top: '70%' },
