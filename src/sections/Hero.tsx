@@ -112,7 +112,6 @@ export const HeroSection = () => {
             >
               <button className="inline-flex items-center gap-2 z-10 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl hover:bg-white/70 hover:text-gray-900 transition duration-300">
                 <span className="font-serif font-semibold">Download CV</span>
-                <span>📩</span>
               </button>
             </a>
           </motion.div>
