@@ -36,11 +36,11 @@ export const Header = () => {
         <a href="#About" className="nav-item-mobile" onClick={handleScroll("About")}>
           About
         </a>
-        <a href="#skills" className="nav-item-desktop" onClick={handleScroll("skills")}>
-          Skills
+        <a href="#certifications" className="nav-item-desktop" onClick={handleScroll("certifications")}>
+          Certificates
         </a>
-        <a href="#skills" className="nav-item-mobile" onClick={handleScroll("skills")}>
-          Skills
+        <a href="#certifications" className="nav-item-mobile" onClick={handleScroll("certifications")}>
+          Certificates
         </a>
         <a
           href="#contact"
