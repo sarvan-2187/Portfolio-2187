@@ -99,7 +99,7 @@ export const HeroSection = () => {
               className="z-10"
             >
               <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl z-10 hover:bg-gray-700 hover:text-white transition duration-500">
-                <span className="font-serif font-semibold">Proof of Work Github</span>
+                <span className="font-serif font-semibold">Proof of Work</span>
                 <GithubIcon className="size-4" />
               </button>
             </a>
