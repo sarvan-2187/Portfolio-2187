@@ -87,7 +87,7 @@ export const HeroSection = () => {
 
           {/* Buttons */}
           <motion.div
-            className="flex flex-col md:flex-row justify-center items-center mt-8 gap-6"
+            className="flex flex-row md:flex-row justify-center items-center mt-8 gap-6"
             initial={{ y: 40, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
@@ -99,7 +99,7 @@ export const HeroSection = () => {
               className="z-10"
             >
               <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl z-10 hover:bg-gray-700 hover:text-white transition duration-500">
-                <span className="font-serif font-semibold">View Github </span>
+                <span className="font-serif font-semibold">Github</span>
                 <GithubIcon className="size-4" />
               </button>
             </a>
@@ -111,7 +111,7 @@ export const HeroSection = () => {
               className="z-10"
             >
               <button className="inline-flex items-center gap-2 z-10 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl hover:bg-white/70 hover:text-gray-900 transition duration-300">
-                <span className="font-serif font-semibold">Download CV</span>
+                <span className="font-serif font-semibold">Resume</span>
               </button>
             </a>
           </motion.div>
