@@ -158,7 +158,7 @@ export function Contact() {
           </div>
           <div className='flex flex-row gap-2 justify-end'>
             <div className='bg-gradient-to-br from-emerald-600 via-sky-800 to-emerald-200 size-2.5 rounded-full animate-spin'></div>
-            <div className='bg-gray-500 size-2.5 rounded-full animate-bounce'></div>
+            <div className='bg-emerald-400 size-2.5 rounded-full animate-pulse'></div>
             <div className='bg-gradient-to-br from-indigo-500 via-sky-800 to-emerald-600 size-2.5 rounded-full animate-spin'></div>
           </div>
         </div>
