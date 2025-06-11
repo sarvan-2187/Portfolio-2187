@@ -96,7 +96,7 @@ export const AboutSection = () => {
               </div>
             </Card>
 
-            <Card className="h-[320px] p-0 md:col-span-3 lg:col-span-2">
+            <Card className="h-[320px] px-6 pt-6 md:col-span-3 lg:col-span-2">
               <CardHeader title="My Education" description="Explore where I have studied" className="pt-6 px-6" />
               <p>Amrita Vishwa Vidyapeetham, Chennai - B.tech, CSE</p>
               <p>Ascent Classes, Visakhaptnam - PUC</p>
