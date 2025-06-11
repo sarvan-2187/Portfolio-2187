@@ -34,7 +34,7 @@ const hobbies = [
   { title: "Music", emoji: "🎵", left: '70%', top: '45%' },
   { title: "Movies", emoji: "🎬", left: '5%', top: '70%' },
   { title: "Videography", emoji: "📽️", left: '45%', top: '65%' },
-  { title: "Blogs", emoji: "📃", left: '45%', top: '23%' },
+  { title: "Blogs", emoji: "📃", left: '45%', top: '27%' },
   { title: "Cricket", emoji: "🏏", left: '30%', top: '0%' },
   { title: "Chess", emoji: "♟️", left: '45%', top: '20%' },
 ];
