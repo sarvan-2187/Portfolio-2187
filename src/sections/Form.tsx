@@ -128,7 +128,7 @@ export function Contact() {
               type="submit"
               className="mt-2 bg-sky-600 hover:bg-sky-800 text-white font-medium py-2 rounded-lg transition-all duration-500"
             >
-              Send Message
+              Send Message 🚀
             </button>
           </form>
         </div>
