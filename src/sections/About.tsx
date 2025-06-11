@@ -97,7 +97,7 @@ export const AboutSection = () => {
             </Card>
 
             <Card className="h-[320px] p-0 md:col-span-3 lg:col-span-2">
-              <CardHeader title="My Development Stack" description="Explore the curated collection of the tools and languages I work with." className="pt-6 px-6" />
+              <CardHeader title="My Education" description="Explore where I have studied" className="pt-6 px-6" />
               <ToolboxItems items={toolboxItems} className="mt-6" itemsWrapperClassName="animate-move-left [animation-duration:20s]" />
               <ToolboxItems items={toolboxItems} className="mt-6" itemsWrapperClassName="-translate-x-1/2 animate-move-right [animation-duration:20s]" />
             </Card>
