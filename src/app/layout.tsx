@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge(lexend.variable,spacegrotesk.variable,"bg-gray-100 text-white antialiased font-sans")}>{children}</body>
+      <body className={twMerge(lexend.variable,spacegrotesk.variable,"bg-black text-white antialiased font-sans")}>{children}</body>
     </html>
   );
 }
