@@ -101,7 +101,7 @@ export const AboutSection = () => {
               <div className="px-6 pt-6">
               <p>• <span className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2024 - 2028</span> Amrita Vishwa Vidyapeetham, Chennai - B.tech, CSE</p><br></br>
               <p>• <span className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2022 - 2024</span> Ascent Classes, Visakhaptnam - PUC (95.90%)</p><br></br>
-              <p>• <span>2021 - 2022</span> Sri Chaitanya Schools, Madhurawada - SSC (97.16%)</p><br></br>
+              <p>• <span className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2021 - 2022</span> Sri Chaitanya Schools, Madhurawada - SSC (97.16%)</p><br></br>
               </div>
               </Card>
           </div>
