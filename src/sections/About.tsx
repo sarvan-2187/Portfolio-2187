@@ -99,9 +99,9 @@ export const AboutSection = () => {
             <Card className="h-[320px] p-0 md:col-span-3 lg:col-span-2">
               <CardHeader title="My Education" description="Explore where, what, when I have studied" className="pt-6 px-6" />
               <div className="px-6 pt-6">
-              <p>Amrita Vishwa Vidyapeetham, Chennai - B.tech, CSE</p><br></br>
-              <p>Ascent Classes, Visakhaptnam - PUC</p><br></br>
-              <p>Sri Chaitanya Schools, Madhurawada - SSC</p><br></br>
+              <p>• Amrita Vishwa Vidyapeetham, Chennai - B.tech, CSE</p><br></br>
+              <p>• Ascent Classes, Visakhaptnam - PUC</p><br></br>
+              <p>• Sri Chaitanya Schools, Madhurawada - SSC</p><br></br>
               </div>
               </Card>
           </div>
