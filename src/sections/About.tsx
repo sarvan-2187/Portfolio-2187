@@ -98,10 +98,10 @@ export const AboutSection = () => {
 
             <Card className="h-[320px] p-0 md:col-span-3 lg:col-span-2">
               <CardHeader title="My Education" description="Explore where, what, when I have studied" className="pt-6 px-6" />
-              <div className="px-6 pt-6">
-              <p>• <span className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2024 - 2028</span> Amrita Vishwa Vidyapeetham, Chennai - B.tech, CSE</p><br></br>
-              <p>• <span className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2022 - 2024</span> Ascent Classes, Visakhaptnam - PUC (95.90%)</p><br></br>
-              <p>• <span className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2021 - 2022</span> Sri Chaitanya Schools, Madhurawada - SSC (97.16%)</p><br></br>
+              <div className="px-6 pt-6 font-serif">
+              <p>• <span className="uppercase font-semibold bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2024 - 2028</span> Amrita Vishwa Vidyapeetham, Chennai - B.tech, CSE</p><br></br>
+              <p>• <span className="uppercase font-semibold bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2022 - 2024</span> Ascent Classes, Visakhaptnam - PUC (95.90%)</p><br></br>
+              <p>• <span className="uppercase font-semibold bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2021 - 2022</span> Sri Chaitanya Schools, Madhurawada - SSC (97.16%)</p><br></br>
               </div>
               </Card>
           </div>
