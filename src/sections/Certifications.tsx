@@ -11,7 +11,7 @@ const galleryItems = [
     image: gallery1,
     title: "GenAI Fundamentals",
     description: "Successfully cleared the Generative AI Fundamentals Certification exam with a score of 100% from DataBricks Academy.",
-    href:'https://www.canva.com/design-school/certification-award/5328e5d4-ee86-4999-90ca-0783ad2a2c71',
+    href:'https://api.accredible.com/v1/auth/invite?code=19d4a9e1e2986b343bbd&credential_id=b8cc4763-1b59-4012-a045-239bd6ccc5d9&url=https%3A%2F%2Fcredentials.databricks.com%2Fb8cc4763-1b59-4012-a045-239bd6ccc5d9&ident=49b82bb9-a7f5-4c05-a236-53f3cd61f21b/'
   },
   {
     image: gallery2,
