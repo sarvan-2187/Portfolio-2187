@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from "next/image";
-import gallery1 from "@/assets/images/GenAi.jpg";
+import gallery1 from "@/assets/images/GenAI.jpg";
 import gallery2 from "@/assets/images/seo-hubspot.png";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useRef, useEffect } from "react";
@@ -9,8 +9,8 @@ import { useRef, useEffect } from "react";
 const galleryItems = [
   {
     image: gallery1,
-    title: "Canva Essentials",
-    description: "Successfully cleared the Canva Essentials Certification exam with a score of 20/20 from Canva.",
+    title: "GenAI Fundamentals",
+    description: "Successfully cleared the Generative AI Fundamentals Certification exam with a score of 100% from DataBricks Academy.",
     href:'https://www.canva.com/design-school/certification-award/5328e5d4-ee86-4999-90ca-0783ad2a2c71',
   },
   {
