@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from "next/image";
-import gallery1 from "@/assets/images/canva-essentials.png";
+import gallery1 from "@/assets/images/GenAi.jpg";
 import gallery2 from "@/assets/images/seo-hubspot.png";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useRef, useEffect } from "react";
