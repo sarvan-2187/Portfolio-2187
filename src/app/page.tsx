@@ -17,7 +17,6 @@ export default function Home() {
       <ProjectsSection />
       <GithubHeatmap />
       <TapeSection/>
-      <Skills/>
       <AboutSection/>
       <Certifications/>
       <Contact/>
