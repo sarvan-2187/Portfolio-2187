@@ -5,7 +5,6 @@ import { TapeSection } from "@/sections/Tape";
 import { AboutSection } from "@/sections/About";
 import { Footer } from "@/sections/Footer";
 import { Certifications } from "@/sections/Certifications";
-import Skills from '@/sections/skills';
 import { Contact } from "@/sections/Form";
 import { GithubHeatmap } from "@/sections/Heatmap";
 
