@@ -20,7 +20,7 @@ export const Header = () => {
       transition={{ type: "spring", stiffness: 80, damping: 12, delay: 0.1 }}
       className="flex justify-center items-center fixed top-3 w-full z-10"
     >
-      <nav className="flex gap-1 sm:gap-0 p-0.5 border-white/15 rounded-full bg-white/10 backdrop-blur lg:p-1">
+      <nav className="flex gap-1 sm:gap-0 p-0.5 border-white/15 rounded-md bg-white/10 backdrop-blur lg:p-1">
         <a href="#home" className="nav-item" onClick={handleScroll("home")}>
           Home
         </a>
