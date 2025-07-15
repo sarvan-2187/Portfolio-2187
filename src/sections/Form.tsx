@@ -82,7 +82,7 @@ export function Contact() {
       >
         Let&apos;s build something amazing together.
       </motion.p>
-      <Card className='container flex flex-col-reverse md:flex-row gap-8 md:gap-12 items-start justify-start py-6 lg:px-12'>
+      <Card className='container bg-black flex flex-col-reverse md:flex-row gap-8 md:gap-12 items-start justify-start py-6 lg:px-12'>
         <div className='sm:w-full md:w-1/2'>
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">
             <div className="flex flex-col gap-1">
