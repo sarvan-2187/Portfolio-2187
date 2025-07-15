@@ -89,14 +89,14 @@ export const AboutSection = () => {
 
         <div className="mt-20 md:mt-6 flex flex-col gap-4 ">
           <div className="md:grid md:grid-cols-5 md:gap-8 lg:grid lg:grid-cols-3 flex flex-col gap-8">
-            <Card className="h-[320px] md:col-span-2 lg:col-span-1">
+            <Card className=" bg-black h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader title="My Reads" description="Explore the book shaping my perspectives" />
               <div className="w-40 mx-auto mt-8">
                 <Image src={BookImage} alt="Atomic Habits" />
               </div>
             </Card>
 
-            <Card className="h-[320px] p-0 md:col-span-3 lg:col-span-2">
+            <Card className=" bg-black h-[320px] p-0 md:col-span-3 lg:col-span-2">
               <CardHeader title="My Education" description="Explore where, what, when I have studied" className="pt-6 px-6" />
               <div className="px-6 pt-6 font-serif">
               <p>• <span className="uppercase font-semibold bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">2024 - 2028</span> &nbsp; Amrita Vishwa Vidyapeetham, Chennai - B.tech, CSE</p><br></br>
@@ -107,7 +107,7 @@ export const AboutSection = () => {
           </div>
 
           <div className="md:grid md:grid-cols-5 md:gap-8 flex flex-col lg:grid-cols-3 lg:gap-8 gap-8">
-            <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
+            <Card className="bg-black h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
               <CardHeader title="Beyond the Code" description="Explore my interests and hobbiles beyond the realm." className="px-6 py-6" />
               <div className="relative flex-1" ref={constraintRef}>
                 {hobbies.map(hobby => (
@@ -125,7 +125,7 @@ export const AboutSection = () => {
               </div>
             </Card>
 
-            <Card className="h-[320px] p-0 relative md:col-span-2 lg:col-span-1">
+            <Card className="bg-black h-[320px] p-0 relative md:col-span-2 lg:col-span-1">
               <Image src={MapImage} alt="Map" className="h-full w-full object-cover" />
               
             </Card>
