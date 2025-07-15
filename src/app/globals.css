@@ -3,11 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  .nav-item-mobile {
-    @apply px-4 py-1.5 rounded-full sm:inline-flex md:hidden text-white/70 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300;
-  }
-  .nav-item-desktop {
-    @apply px-4 py-1.5 rounded-full sm:hidden md:inline-flex text-white/70 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300;
+  .nav-item {
+    @apply px-4 py-1.5 rounded-md text-white/70 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300;
   }
   :root {
     --background: 0 0% 100%;
