@@ -21,37 +21,18 @@ export const Header = () => {
       className="flex justify-center items-center fixed top-3 w-full z-10"
     >
       <nav className="flex gap-1 sm:gap-0 p-0.5 border-white/15 rounded-full bg-white/10 backdrop-blur lg:p-1">
-        <a href="#home" className="nav-item-desktop" onClick={handleScroll("home")}>
+        <a href="#home" className="nav-item" onClick={handleScroll("home")}>
           Home
         </a>
-        <a href="#Projects" className="nav-item-desktop" onClick={handleScroll("Projects")}>
+        <a href="#Projects" className="nav-item" onClick={handleScroll("Projects")}>
           Projects
         </a>
-        <a href="#Projects" className="nav-item-mobile" onClick={handleScroll("Projects")}>
-          Projects
-        </a>
-        <a href="#About" className="nav-item-desktop" onClick={handleScroll("About")}>
+        <a href="#About" className="nav-item" onClick={handleScroll("About")}>
           About
-        </a>
-        <a href="#About" className="nav-item-mobile" onClick={handleScroll("About")}>
-          About
-        </a>
-        <a href="#certifications" className="nav-item-desktop" onClick={handleScroll("certifications")}>
-          Certificates
-        </a>
-        <a href="#certifications" className="nav-item-mobile" onClick={handleScroll("certifications")}>
-          Certificates
         </a>
         <a
           href="#contact"
-          className="nav-item-mobile bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
-          onClick={handleScroll("contact")}
-        >
-          Contact
-        </a>
-        <a
-          href="#contact"
-          className="nav-item-desktop bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
+          className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
           onClick={handleScroll("contact")}
         >
           Contact
