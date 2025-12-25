@@ -1,8 +1,10 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { Terminal } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 import memojiImage from '@/assets/images/memoji-computer.png';
 import grainImage from '@/assets/images/grain.jpg';
@@ -12,6 +14,13 @@ import SparkleIcon from '@/assets/icons/sparkle.svg';
 import { HeroOrbit } from '@/components/HeroOrbit';
 
 export const HeroSection = () => {
+  const router = useRouter();
+  const [booting, setBooting] = useState(false);
+
+  const handleOpenCli = () => {
+    setBooting(true);
+    setTimeout(() => router.push('/cli-portfolio'), 200);
+  };
   return (
     <section id="home">
       <div className="py-36 md:py-48 lg:py-55 relative z-0 overflow-x-clip">
@@ -59,30 +68,50 @@ export const HeroSection = () => {
         {/* Content */}
         <div className="container">
           <div className="flex flex-col items-center gap-2">
-            <Image
-              src={memojiImage}
-              className="size-[200px] lg:size-[150px]"
-              alt="Person peeking from behind Laptop"
-            />
-            <div className="bg-gray-950 px-4 py-1.5 inline-flex items-center gap-8 lg:gap-4 rounded-3xl border-b border-green-950">
+            <motion.div
+              initial={{ opacity: 0, filter: "blur(16px)", scale: 0.92 }}
+              animate={{ opacity: 1, filter: "blur(0px)", scale: 1 }}
+              transition={{ duration: 0.9, ease: "easeOut", delay: 0.05 }}
+            >
+              <Image
+                src={memojiImage}
+                className="size-[200px] lg:size-[150px]"
+                alt="Person peeking from behind Laptop"
+                priority
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, filter: "blur(12px)", y: 12 }}
+              animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.12 }}
+              className="bg-gray-950 px-4 py-1.5 inline-flex items-center gap-8 lg:gap-4 rounded-3xl border-b border-green-950"
+            >
               <div className="bg-green-500 size-2.5 rounded-full relative">
                 <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
               </div>
               <div className="text-sm font-medium">Available for New Projects</div>
-            </div>
+            </motion.div>
           </div>
 
           {/* Heading */}
           <div className="max-w-lg mx-auto">
-            <h1
+            <motion.h1
+              initial={{ opacity: 0, filter: "blur(12px)", y: 24 }}
+              animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
+              transition={{ duration: 0.9, ease: "easeOut" }}
               className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl font-medium bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text"
             >
               Hi! I&apos;m Sarvan Kumar
-            </h1>
+            </motion.h1>
 
-            <p className="mt-4 text-center text-white/60 md:text-lg z-10">
+            <motion.p
+              initial={{ opacity: 0, filter: "blur(10px)", y: 16 }}
+              animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
+              transition={{ duration: 0.9, ease: "easeOut", delay: 0.1 }}
+              className="mt-4 text-center text-white/60 md:text-lg z-10"
+            >
               A frontend engineer skilled in HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Git, and UI/UX tools like Figma, Framer, and Canva.
-            </p>
+            </motion.p>
           </div>
 
           {/* Buttons */}
@@ -104,17 +133,21 @@ export const HeroSection = () => {
               </button>
             </a>
 
-            <a
-              href="/resume.pdf"
-              download="SarvanKumar_Resume.pdf"
-              rel="noopener noreferrer"
-              className="z-10"
+            <button
+              onClick={handleOpenCli}
+              className="z-10 inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl hover:bg-white/70 hover:text-gray-900 transition duration-300"
             >
-              <button className="inline-flex items-center gap-2 z-10 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl hover:bg-white/70 hover:text-gray-900 transition duration-300">
-                <span className="font-serif font-semibold">Resume</span>
-              </button>
-            </a>
+              <Terminal className="size-4" />
+              <span className="font-serif font-semibold">CLI</span>
+            </button>
           </motion.div>
+          {booting && (
+            <div className="fixed inset-0 bg-black/85 backdrop-blur flex flex-col items-center justify-center gap-3 z-50 text-white">
+              <div className="h-10 w-10 border-2 border-emerald-400/60 border-t-transparent rounded-full animate-spin" />
+              <div className="text-emerald-200 text-sm">Initializing CLI…</div>
+              <div className="text-white/60 text-xs">boot sequence: loading shell, fonts, commands</div>
+            </div>
+          )}
         </div>
       </div>
     </section>

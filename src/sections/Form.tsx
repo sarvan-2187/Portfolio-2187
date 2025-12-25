@@ -8,6 +8,7 @@ import Instagram from '@/assets/images/instagram.png';
 import Whatsapp from '@/assets/images/whatsapp.png';
 import React, { FormEvent, useEffect, useRef } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
+import { Send } from 'lucide-react';
 
 export function Contact() {
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
@@ -126,9 +127,10 @@ export function Contact() {
 
             <button
               type="submit"
-              className="mt-2 bg-sky-600 hover:bg-sky-800 text-white font-medium py-2 rounded-lg transition-all duration-500"
+              className="mt-2 bg-sky-600 hover:bg-sky-800 text-white font-medium py-2 rounded-lg transition-all duration-500 flex items-center justify-center gap-2"
             >
-              Send Message 🚀
+              <span>Send Message</span>
+              <Send className="size-4" />
             </button>
           </form>
         </div>
