@@ -110,7 +110,7 @@ export const HeroSection = () => {
               transition={{ duration: 0.9, ease: "easeOut", delay: 0.1 }}
               className="mt-4 text-center text-white/60 md:text-lg z-10"
             >
-              A frontend engineer skilled in HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Git, and UI/UX tools like Figma, Framer, and Canva.
+              A Software Engineer skilled in JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Git and Canva.
             </motion.p>
           </div>
 
