@@ -29,8 +29,8 @@ const portfolioProjects = [
       { title: "Implemented CRUD Operations for task management" },
       { title: "Used FileWriter for faster CSV Exports" },
     ],
-    link: "",
-    github: "https://github.com/sarvan-2187/OOPS-LAB/tree/main/Project%20-%20Task%20Manager",
+    link: "https://github.com/sarvan-2187/cli-task-manager.git",
+    github: "https://github.com/sarvan-2187/cli-task-manager.git",
     image: cliImage,
   },
 ];
