@@ -153,18 +153,17 @@ export function Contact() {
               </a>
             </div>
             <div>
-              <a href='https://www.instagram.com/sarvan._.21/' title='Instagram' target='_blank'>
+              <a href='https://www.instagram.com/sarvan.tsx/' title='Instagram' target='_blank'>
                 <Image src={Instagram} alt='Linkedin' className='size-10 md:size-12 rounded-full shadow-gray-400 shadow-sm' />
               </a>
             </div>
           </div>
           <div className='flex flex-row gap-2 justify-end'>
-            <div className='bg-gradient-to-br from-emerald-600 via-sky-800 to-emerald-200 size-2.5 rounded-full animate-spin'></div>
             <div className='bg-emerald-400 size-2.5 rounded-full animate-pulse'></div>
-            <div className='bg-gradient-to-br from-indigo-500 via-sky-800 to-emerald-600 size-2.5 rounded-full animate-spin'></div>
           </div>
         </div>
       </Card>
     </section>
   );
 }
+
