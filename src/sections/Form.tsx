@@ -158,8 +158,8 @@ export function Contact() {
               </a>
             </div>
           </div>
-          <div className='flex flex-row gap-2 justify-end'>
-            <p>All Systems Normal</p>
+          <div className='flex flex-row gap-2 justify-end items-center'>
+            <p className="text-sm">All Systems Normal</p>
             <div className='bg-emerald-400 size-2.5 rounded-full animate-pulse'></div>
           </div>
         </div>
@@ -167,5 +167,6 @@ export function Contact() {
     </section>
   );
 }
+
 
 
