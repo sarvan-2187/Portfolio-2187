@@ -1,6 +1,7 @@
 'use client';
 import objImage from "@/assets/images/obj-detector.png"
 import cliImage from "@/assets/images/java-cli.png"
+import stmpImage from "@/assets/images/stumps.png"
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowIcon from "@/assets/icons/arrow-up-right.svg";
 import GithubIcon from '@/assets/icons/github.svg';
@@ -10,7 +11,19 @@ import { useRef, useEffect } from "react";
 
 const portfolioProjects = [
   {
-    stack: "Next.js, Tailwind",
+    stack: "Next.js, Groq, NeonDB",
+    year: "2026",
+    title: "Stumps and Stories",
+    results: [
+      { title: "Fetches from ESPNCricInfo & CricTracker RSS" },
+      { title: "Uses Nodemailer + App Passwords for Emails" },
+    ],
+    link: "https://stumps-and-stories.vercel.app/",
+    github: "#",
+    image: stmpImage,
+  },
+  {
+    stack: "Next.js, Tailwind, COCO SSD",
     year: "2025",
     title: "Thief Detection Alarm",
     results: [
@@ -22,7 +35,7 @@ const portfolioProjects = [
     image: objImage,
   },
   {
-    stack: "Java",
+    stack: "Java, File Writer, CSV",
     year: "2025",
     title: "CLI Task Manager",
     results: [
