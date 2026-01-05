@@ -17,6 +17,7 @@ const portfolioProjects = [
     results: [
       { title: "Fetches from ESPNCricInfo & CricTracker RSS" },
       { title: "Uses Nodemailer + App Passwords for Emails" },
+      { title: "Stores Data in NeonDB (Subscribers, Email Content)" },
     ],
     link: "https://stumps-and-stories.vercel.app/",
     github: "#",
@@ -29,6 +30,7 @@ const portfolioProjects = [
     results: [
       { title: "Plays a loud sound if detects a person" },
       { title: "Works on Tensorflow's COCO-SSD AI Model" },
+      { title: "Helped 10+ Households with this project" },
     ],
     link: "https://obj-detector.vercel.app",
     github: "#",
@@ -41,6 +43,7 @@ const portfolioProjects = [
     results: [
       { title: "Implemented CRUD Operations for task management" },
       { title: "Used FileWriter for faster CSV Exports" },
+      { title: "Overcame the issue of Saving the data with CSV Export" },
     ],
     link: "https://github.com/sarvan-2187/cli-task-manager.git",
     github: "https://github.com/sarvan-2187/cli-task-manager.git",
