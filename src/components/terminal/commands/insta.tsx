@@ -6,7 +6,7 @@ const insta: Command = {
   hidden: true,
   execute: () => {
     if (typeof window !== "undefined") {
-      window.open("https://www.instagram.com/sarvan._.21/", "_blank", "noopener,noreferrer");
+      window.open("https://www.instagram.com/sarvan.tsx/", "_blank", "noopener,noreferrer");
     }
     return {
       type: "output",
