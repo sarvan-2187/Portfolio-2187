@@ -76,6 +76,7 @@ export const GithubHeatmap = () => {
               blockSize={12}
               blockMargin={4}
               fontSize={14}
+              year={new Date().getFullYear()}
               colorScheme='dark'
               theme={gradientTheme}
             />
@@ -87,3 +88,4 @@ export const GithubHeatmap = () => {
 };
 
 export default GithubHeatmap;
+
