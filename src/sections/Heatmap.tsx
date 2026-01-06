@@ -70,7 +70,7 @@ export const GithubHeatmap = () => {
       <div className='mt-8 max-w-4xl mx-auto flex flex-col items-center gap-2'>
         <div className='w-full overflow-x-auto'>
           <p className='font-serif text-emerald-300 text-xl font-semibold text-center mb-6'>- GitHub -</p>
-          <div className='w-full no-scrollbar' style={{ width: '100%', overflowX: 'auto' }}>
+          <div className='w-full overflo-x-auto no-scrollbar' style={{ width: '100%', overflowX: 'auto' }}>
             <GitHubCalendar
               username='sarvan-2187'
               blockSize={12}
@@ -88,6 +88,7 @@ export const GithubHeatmap = () => {
 };
 
 export default GithubHeatmap;
+
 
 
 
