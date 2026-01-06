@@ -64,7 +64,7 @@ export const GithubHeatmap = () => {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
         className="text-center text-white/60 md:text-lg mt-8 mb-8 max-w-[32rem] mx-auto"
       >
-        See my GitHub Contributions/Submissions.
+        See my GitHub Contributions in this Year.
       </motion.p>
 
       <div className='mt-8 max-w-4xl mx-auto flex flex-col items-center gap-2'>
@@ -88,4 +88,5 @@ export const GithubHeatmap = () => {
 };
 
 export default GithubHeatmap;
+
 
